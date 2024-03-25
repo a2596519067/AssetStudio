@@ -57,11 +57,11 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: AssetStudio.net6
-          path: AssetStudioGUI/bin/Release/net6.0-windows/publish
+          path: AssetStudioGUI/bin/Release/net6.0-windows/win-x64/publish
 
       - name: Upload .Net8 Artifact
         uses: actions/upload-artifact@v2
         with:
           name: AssetStudio.net8
-          path: AssetStudioGUI/bin/Release/net8.0-windows/publish
+          path: AssetStudioGUI/bin/Release/net8.0-windows/win-x64/publish
 
